@@ -2,13 +2,13 @@ import { SiWhatsapp } from "react-icons/si";
 import { DonationTicker } from "@/components/DonationTicker";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
-import { AboutSection } from "@/components/AboutSection";
 import { ProgramsSection } from "@/components/ProgramsSection";
 import { PhotoGallery } from "@/components/PhotoGallery";
 import { StatsSection } from "@/components/StatsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { DonateSection } from "@/components/DonateSection";
 import { IntakeForm } from "@/components/IntakeForm";
+import { PartnersSection } from "@/components/PartnersSection";
 import { FounderStory } from "@/components/FounderStory";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
@@ -19,16 +19,16 @@ export default function Home() {
     <div className="min-h-screen bg-background font-sans">
       <DonationTicker />
       <Navbar />
-      
+
       <main>
         <HeroSection />
-        <AboutSection />
         <ProgramsSection />
         <PhotoGallery />
         <StatsSection />
         <TestimonialsSection />
         <DonateSection />
         <IntakeForm />
+        <PartnersSection />
         <FounderStory />
         <ContactSection />
       </main>
@@ -37,13 +37,14 @@ export default function Home() {
 
       {/* Floating Elements */}
       <ChatBot />
-      
-      <a 
-        href="https://wa.me/2349136989232" 
-        target="_blank" 
+
+      <a
+        href="https://wa.me/2349136989232"
+        target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 w-14 h-14 bg-[#25D366] text-white rounded-full shadow-xl flex items-center justify-center hover:scale-105 hover:bg-[#20bd5a] transition-all focus:outline-none focus:ring-4 focus:ring-[#25D366]/30"
         aria-label="Contact on WhatsApp"
+        data-testid="link-whatsapp-float"
       >
         <SiWhatsapp size={28} />
       </a>

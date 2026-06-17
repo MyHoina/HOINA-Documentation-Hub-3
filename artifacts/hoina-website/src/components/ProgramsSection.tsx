@@ -7,6 +7,8 @@ import imgHumanitarian from "@assets/IMG-20260617-WA0047_1781726983266.jpg";
 import imgEducation from "@assets/IMG-20260617-WA0057_1781726983307.jpg";
 import { ShieldAlert, HeartHandshake, Users, Droplets, Leaf, Scale } from "lucide-react";
 
+const imgHygiene = "/hygiene-program.png";
+
 const programs = [
   {
     id: 1,
@@ -55,8 +57,8 @@ const programs = [
     icon: Leaf,
     color: "bg-teal-100 text-teal-700",
     borderColor: "group-hover:border-teal-400",
-    photo: null,
-    photoAlt: "",
+    photo: imgHygiene,
+    photoAlt: "Community hygiene and sanitation campaign in Adamawa State Nigeria",
   },
   {
     id: 6,

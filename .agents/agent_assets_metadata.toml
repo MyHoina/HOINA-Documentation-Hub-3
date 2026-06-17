@@ -18,3 +18,9 @@ id = "8pnh2rlknkAv-7sNp3G16"
 uri = "file://artifacts/hoina-website/src/assets/images/programs-bg.png"
 type = "image"
 title = "Community education session"
+
+[[generated]]
+id = "B2sTeBDf1-0Qrm2OQLs5x"
+uri = "file://public/hygiene-program.png"
+type = "image"
+title = "generated_image"
