@@ -7,6 +7,7 @@ import { StatsSection } from "@/components/StatsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { DonateSection } from "@/components/DonateSection";
 import { IntakeForm } from "@/components/IntakeForm";
+import { FounderStory } from "@/components/FounderStory";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
 import { ChatBot } from "@/components/ChatBot";
@@ -24,6 +25,7 @@ export default function Home() {
         <TestimonialsSection />
         <DonateSection />
         <IntakeForm />
+        <FounderStory />
         <ContactSection />
       </main>
 

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import founderImg from "@/assets/images/about-founder.png";
+import founderImg from "@assets/Founder,_Halima_Usman_4_1781726333364.jpg";
 import { BadgeCheck, Users, Scale, Globe } from "lucide-react";
 
 export function AboutSection() {
@@ -32,7 +32,7 @@ export function AboutSection() {
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 z-20">
                 <p className="text-white font-bold text-xl">Halima Usman, BSc Law</p>
-                <p className="text-white/80 text-sm font-medium">Founder & Executive Director</p>
+                <p className="text-white/80 text-sm font-medium">Founder, HOINA Charity Foundation</p>
               </div>
             </div>
           </motion.div>
