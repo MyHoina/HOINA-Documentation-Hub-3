@@ -1,4 +1,5 @@
 import { SiWhatsapp } from "react-icons/si";
+import { DonationTicker } from "@/components/DonationTicker";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
@@ -15,6 +16,7 @@ import { ChatBot } from "@/components/ChatBot";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <DonationTicker />
       <Navbar />
       
       <main>

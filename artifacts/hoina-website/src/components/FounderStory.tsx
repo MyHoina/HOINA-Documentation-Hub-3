@@ -1,6 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import founderImg from "@assets/Founder,_Halima_Usman_4_1781726333364.jpg";
+import communityImg from "@assets/IMG-20260617-WA0050_1781726983285.jpg";
 import { Quote, Scale, Heart, BookOpen, Star, ArrowRight } from "lucide-react";
 
 const fadeUp = {
@@ -182,6 +183,29 @@ export function FounderStory() {
             })}
           </div>
         </div>
+
+        {/* Community photo strip */}
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.7, delay: 0.25 }}
+          className="mb-16 rounded-3xl overflow-hidden shadow-xl relative h-72 md:h-96"
+        >
+          <img
+            src={communityImg}
+            alt="HOINA team supporting community members at an inclusion event in Adamawa State"
+            data-testid="img-community-event"
+            className="w-full h-full object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/85 via-primary/40 to-transparent flex items-end p-8 md:p-12">
+            <div className="max-w-xl">
+              <p className="text-accent font-bold uppercase tracking-widest text-xs mb-2">On the Ground</p>
+              <p className="text-white text-lg md:text-2xl font-semibold leading-snug">
+                HOINA doesn't just advocate from a distance — we sit beside the people we serve, in every room that matters.
+              </p>
+            </div>
+          </div>
+        </motion.div>
 
         {/* Closing manifesto */}
         <motion.div

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroBg from "@/assets/images/hero-bg.png";
+import heroBg from "@assets/IMG-20260617-WA0044_1781726983329.jpg";
 
 export function HeroSection() {
   const scrollToSection = (id: string) => {
