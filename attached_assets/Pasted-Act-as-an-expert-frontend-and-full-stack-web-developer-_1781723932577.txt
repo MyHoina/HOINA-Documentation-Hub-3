@@ -1,0 +1,64 @@
+Act as an expert frontend and full-stack web developer specializing in rapid prototyping. Build a complete, highly interactive, responsive, and visually stunning website for "HOINA Charity & Support Foundation" based on the uploaded files, structural blueprint, and explicit design constraints below.
+
+### 1. STRATEGIC DESIGN FRAMEWORK (Global Best-Practice Fusion)
+- Design Architecture: Fuse the visual, story-driven emotional hook of the 'Malala Fund' landing page with the clean, metric-driven, high-credibility data layout of the 'Bill & Melinda Gates Foundation'. 
+- Conversion Engine: Maximize immediate visual trust by placing a bold, high-contrast hero section featuring a localized call-to-action right next to an inspiring, large hero image.
+
+### 2. FILE & CONTEXT REFERENCES (Sourced Content)
+- 'CONSTITUTION OF HOINA CHARITY FOUNDATION Original.docx.pdf': Read this file thoroughly to extract deep programmatic, structural, and legal framework context.
+- 'HOINA Organisational Profile.pdf': Read this file to extract operational details, mission, and program descriptions.
+- '57836.jpg' & '58005.jpg': Look closely at these images for the core branding logo, structural inspiration, and the design theme.
+
+### 3. VISUAL IDENTITY, BRANDING & FOOTER CONTACT
+- Color Palette: Deep Royal Blue, vibrant Community Orange, and clean White (extracted from '57836.jpg' and '58005.jpg').
+- Design Vibe: Warm, highly inviting, community-focused, and rich in large, impactful imagery.
+- Motto: "A sustainable development for better tomorrow" (Display prominently).
+- Corporate Email: info@hoinacharityfoundation.com (Do not use generic @gmail.com domains anywhere).
+- Official Phone & WhatsApp Numbers: Use the actual numbers from the letterhead: 08136989232 and 08080061442.
+- Official Address & Map Integration: Display the address exactly as: "A.U. Usman & Associate, Block 4 Opp. Bekaji Central Mosque Jimeta, Adamawa State, Nigeria." Right next to the text address, place a beautifully styled interactive Location Pin Icon. Wrap this icon in a functional hyperlink targeting Google Maps coordinates for this specific Jimeta location so a user can click and instantly view it on a live map.
+- Social Media Handles: Build elegant, professional link icons for Facebook, Instagram, X (Twitter), YouTube, and TikTok using the foundation's name uniformly across all platforms.
+- Floating Asset: A persistent, floating WhatsApp chat icon linking directly to the primary active contact number.
+- Trust & Transparency Footer: Include an official-looking text block in the footer indicating non-profit registration status (e.g., "Registered Non-Profit Organization No. CAC/IT/748392"), along with a "Share Our Mission" one-click social sharing toolkit.
+
+### 4. SCOPE, GEOGRAPHY & DETAILED IMAGE PLACEHOLDERS
+- Scope: Deeply rooted in Adamawa State, Nigeria, with an explicit stated ambition to expand beyond it. The current core focus of this prototype must emphasize providing legal support and literacy materials for primary school children.
+- AI Image Generation / Placeholder Guidelines: Ensure all generated imagery explicitly reflects the local culture of Adamawa State, Nigeria. 
+  * Generate high-quality visuals showing Black/African people: some men in clean Kaftans and traditional caps, others in casual Western/English attire.
+  * Generate a scene of the female founder standing up and actively distributing school uniforms, textbooks, and exercise books to primary school children (especially young girls) wearing local school uniforms.
+  * Generate a scene of the founder reviewing reading/learning materials and facilities alongside school administrators.
+  * Generate an impactful scene of the female founder inside a courtroom setting actively representing and defending a vulnerable client/child in a child protection/abuse case.
+  * NEW IMAGE SCENE: Generate a wide shot showing the female founder alongside her core leadership team delivering an active educational/sensitization orientation to a gathered group of local women and children inside a school community auditorium.
+
+### 5. CORE WEBSITE SECTIONS
+- Navigation & Header: Clean, modern sticky navbar featuring the core circular logo (extracted from '57836.jpg'), navigation tabs, and a highly visible Call to Action.
+- About Section: Feature the founder, Halima Usman, BSc Law. Use the following text as the foundation, but feel free to stylize or modify for flow:
+  "Halima Usman grew up watching her community fall behind—children dropping out of school, families unable to access legal help, and voices going unheard simply because no one stood beside them. Coming from a modest background herself, she understood firsthand how quickly hope fades when opportunity is out of reach. As she pursued her law degree, Halima saw the same pattern again and again: the poor and vulnerable denied fair treatment, parents unable to fight for their children's rights, and a steadily rising number of out-of-school children left exposed to abuse and exploitation. She also saw literacy slipping in communities that desperately needed knowledge to protect themselves—legally, socially, and economically. Rather than walk past it, Halima chose to stand in the gap. She founded Hoina Charity Foundation to give a voice to the voiceless—representing the vulnerable in legal matters free of charge, getting children back into classrooms, and raising awareness so families know their rights long before they ever need to fight for them. Her work is driven by one belief: that every child deserves an education, and every person deserves justice, regardless of what they can afford."
+- High-Impact Statistics Counter (Gates-Style Credibility): Create a visually striking "Our Impact in Numbers" section near the bottom of the homepage displaying these specific data milestones:
+  * "2,000+ Students Back to School" (with subtext: Provided with full school uniforms, learning materials, and a foundational primary education feeding allowance, especially prioritizing young girls).
+  * "200+ Legal Cases Won" (with subtext: Successfully represented child abuse, child protection, and vulnerable family support cases free of charge in court).
+- Achievements / Testimonials: Build an engaging masonry grid or slider showcasing 6–7 short, emotionally moving testimonials from simulated real-world primary school beneficiaries and families helped by the foundation's educational and legal aid.
+- Contact Us Section: Design a beautiful bottom layout cleanly presenting the corporate email address right next to the active WhatsApp numbers/icons and physical location with the map pin link.
+- Embedded Claude Chatbot: Integrate a clean, beautifully styled persistent chat window interface on the bottom right (simulated as powered by Claude) capable of answering immediate questions about HOINA's foundation goals, constitutional rights advocacy, and active programs.
+
+### 6. INTERACTIVE "DONATE" WORKFLOW
+- Design a bold, exceptionally visible, and appealing "Donate" section/tab paired with a short, deeply emotional, and highly prescriptive text calling for action. Add a clear, trust-building micro-copy line stating: "100% of public donations directly fund instructional materials and court filing fees."
+- When clicked, trigger an elegant dropdown menu split into two distinct donation types:
+  1. Cash / Money: Triggers a secondary dropdown of payment gateways (Bank Transfer, USSD, PayPal, etc.). Selecting Bank Transfer or USSD must cleanly display:
+     * Bank Name: Zenith Bank
+     * Account Name: HOINA Charity & Support Foundation
+     * Account Number: 1019283746 (Realistic default Nigerian NUBAN structure for prototype accuracy)
+  2. In-Kind / Material: Displays a structured check-list of accepted items (Books, Textbooks, Writing Materials, Exercise Books, Uniforms).
+- Off-line/Direct Support: For visitors unable to donate online, explicitly add a sub-text section encouraging them to contact admin via the floating WhatsApp, visit the Jimeta office in person, or follow social media.
+
+### 7. ADVANCED "SUPPORT / INQUIRY" INTAKE FORM
+Create a separate, comprehensive multi-step or dynamically branching application form with the following structural layout:
+- Dropdown 1 (Support Type): Financial Support, Material Support, or Legal Support.
+- Standard Input Fields: Full Name, Phone Number, Email Address.
+- Dropdown 2 (Gender): Male, Female, Prefer not to say.
+- Dropdown 3 (Entity Type): Individual or Organization.
+  * Conditional Logic: If "Organization" is selected, dynamically branch to reveal extra organization-specific text questions (e.g., Organization Name, Sector, Number of Beneficiaries).
+- Dropdown 4 (Urgency / Impact Level): Sensibly design an additional relevant metric tracking dropdown (e.g., Level of Urgency: Immediate, Within 1 Month, Ongoing Sensitization).
+- Textarea (The Narrative): Label it "Please explain your situation/request", make it optional but highly encouraged, and enforce a strict client-side textarea character limit or visual counter capped at 500 words.
+- Review Submission: Clicking "Submit" must not immediately process the form. It must open a clean, beautifully formatted "Summary Review" overlay showing everything entered. A final, highly visible "Send to Administrators" button will finalize the action with a sleek success animation.
+
+Build this out completely with smooth transitions, modern CSS/Tailwind layout formatting, and robust functionality.

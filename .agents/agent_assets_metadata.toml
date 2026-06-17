@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "90Efbh7pCjMH7TExV9Qk2"
+uri = "file://artifacts/hoina-website/src/assets/images/hero-bg.png"
+type = "image"
+title = "Hero background of African children"
+
+[[generated]]
+id = "aCfXXNVjDzQrUdQroS7Bt"
+uri = "file://artifacts/hoina-website/src/assets/images/about-founder.png"
+type = "image"
+title = "Founder standing near school"
+
+[[generated]]
+id = "8pnh2rlknkAv-7sNp3G16"
+uri = "file://artifacts/hoina-website/src/assets/images/programs-bg.png"
+type = "image"
+title = "Community education session"
