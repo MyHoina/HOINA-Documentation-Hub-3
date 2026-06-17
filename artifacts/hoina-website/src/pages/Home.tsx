@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
 import { ProgramsSection } from "@/components/ProgramsSection";
+import { PhotoGallery } from "@/components/PhotoGallery";
 import { StatsSection } from "@/components/StatsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { DonateSection } from "@/components/DonateSection";
@@ -23,6 +24,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ProgramsSection />
+        <PhotoGallery />
         <StatsSection />
         <TestimonialsSection />
         <DonateSection />
