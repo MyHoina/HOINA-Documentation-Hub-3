@@ -62,8 +62,8 @@ const programs = [
   },
   {
     id: 6,
-    title: "Education & Legal Aid",
-    description: "Free legal representation for vulnerable families and school materials distribution — because justice should never be a luxury.",
+    title: "Education & Community Advocacy",
+    description: "School materials distribution, rights awareness campaigns, and family empowerment — ensuring every child has the tools to learn and every family knows their rights.",
     icon: Scale,
     color: "bg-indigo-100 text-indigo-700",
     borderColor: "group-hover:border-indigo-400",
@@ -102,7 +102,7 @@ export function ProgramsSection() {
               Sectors of <span className="text-accent">Intervention</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              We tackle the root causes of inequality in Adamawa State through targeted, community-driven action across six core pillars.
+              We tackle the root causes of inequality in Adamawa State through targeted, community-driven action across six core areas.
             </p>
           </motion.div>
         </div>

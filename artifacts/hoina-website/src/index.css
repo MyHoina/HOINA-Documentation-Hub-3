@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
@@ -42,13 +43,13 @@
   --background: 0 0% 100%;
   --foreground: 222 47% 11%;
   
-  --primary: 222 83% 33%;
+  --primary: 217 76% 22%;
   --primary-foreground: 0 0% 100%;
   
-  --secondary: 222 83% 95%;
-  --secondary-foreground: 222 47% 11%;
+  --secondary: 217 76% 95%;
+  --secondary-foreground: 217 47% 11%;
   
-  --accent: 25 95% 53%;
+  --accent: 35 92% 52%;
   --accent-foreground: 0 0% 100%;
   
   --muted: 210 40% 96%;
@@ -108,5 +109,9 @@
   }
   body {
     @apply bg-background text-foreground antialiased scroll-smooth;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, .font-heading {
+    font-family: 'Playfair Display', Georgia, serif;
   }
 }

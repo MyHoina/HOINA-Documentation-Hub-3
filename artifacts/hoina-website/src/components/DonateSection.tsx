@@ -42,7 +42,7 @@ export function DonateSection() {
           </div>
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">Your Support Changes Everything</h2>
           <p className="text-xl text-white/80 mb-10 leading-relaxed">
-            100% of public donations directly fund instructional materials and court filing fees. Together, we can ensure every child learns and every vulnerable family is defended.
+            100% of public donations directly fund instructional materials and community programs. Together, we can ensure every child learns and every vulnerable family is supported.
           </p>
 
           <Dialog>

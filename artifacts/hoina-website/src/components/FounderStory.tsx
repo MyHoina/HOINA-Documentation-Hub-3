@@ -27,12 +27,12 @@ const milestones = [
   {
     icon: Heart,
     title: "The Foundation",
-    text: "HOINA Charity Foundation was born not from a boardroom or a grant proposal — it was born from a mother's tears, a child's empty schoolbag, and Halima's refusal to walk away. She brought together a small circle of passionate young people and went to work: knocking on school gates, sitting with families in crisis, standing in courtrooms where the vulnerable had never before had anyone in their corner.",
+    text: "HOINA Charity Foundation was born not from a boardroom or a grant proposal — it was born from a mother's tears, a child's empty schoolbag, and Halima's refusal to walk away. She brought together a small circle of passionate young people and went to work: knocking on school gates, sitting with families in crisis, standing beside communities who had been told their voices didn't matter.",
   },
   {
     icon: Star,
     title: "The Mission Today",
-    text: "Today, HOINA has returned over 2,000 children to school and won more than 200 legal cases for families who had lost all hope. But for Halima, every number is a name. Every statistic is a story that did not end in silence. She continues to lead with the same fire that started it all — a young woman from Adamawa who simply decided that enough was enough.",
+    text: "Today, HOINA has returned over 1,100 children to school and supported hundreds of families across more than 18 communities. But for Halima, every number is a name. Every statistic is a story that did not end in silence. She continues to lead with the same fire that started it all — a young woman from Adamawa who simply decided that enough was enough.",
   },
 ];
 
@@ -128,7 +128,7 @@ export function FounderStory() {
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
-              {["BSc Law", "Youth-Led", "Community Advocate", "Child Rights Champion", "Legal Aid Pioneer"].map((tag) => (
+              {["BSc Law", "Youth-Led", "Community Advocate", "Child Rights Champion", "Humanitarian Leader"].map((tag) => (
                 <span
                   key={tag}
                   className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold border border-primary/20"

@@ -31,7 +31,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-white/70 max-w-sm leading-relaxed">
-              A grassroots force for justice in Adamawa State, fighting for children's education rights and providing free legal aid for vulnerable families.
+              A youth-led humanitarian force in Adamawa State, championing children's education rights and standing with vulnerable families and communities.
             </p>
             <p className="text-accent font-semibold italic">
               "A sustainable development for better tomorrow"

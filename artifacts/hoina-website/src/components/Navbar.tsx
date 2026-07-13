@@ -32,8 +32,10 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/97 backdrop-blur-md shadow-md py-2" : "bg-white py-2"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        isScrolled
+          ? "bg-white/95 backdrop-blur-xl shadow-lg shadow-black/5 border-b border-border/40 py-2"
+          : "bg-white/98 border-b border-transparent py-3"
       }`}
       data-testid="navbar"
     >

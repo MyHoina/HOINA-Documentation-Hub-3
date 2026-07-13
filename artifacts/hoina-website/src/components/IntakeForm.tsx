@@ -48,7 +48,7 @@ export function IntakeForm() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Request Support</h2>
           <p className="text-muted-foreground text-lg">
-            Whether you need legal representation, educational materials, or community intervention, we are here to help.
+            Whether you need advocacy support, educational materials, or community intervention, we are here to help.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export function IntakeForm() {
                               <SelectValue placeholder="Select a support type" />
                             </SelectTrigger>
                             <SelectContent>
-                              <SelectItem value="legal">Legal Support (Court representation, rights defense)</SelectItem>
+                              <SelectItem value="advocacy">Advocacy & Awareness Support</SelectItem>
                               <SelectItem value="material">Material Support (School uniforms, books)</SelectItem>
                               <SelectItem value="financial">Financial Support (Educational allowances)</SelectItem>
                               <SelectItem value="other">Other / Community Intervention</SelectItem>
